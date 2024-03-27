@@ -37,7 +37,7 @@
     },
     "checkver": {
         "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
-        "regex": "QQNT/Windows/QQ_(?<Version>[\\d.]+)_x64_01.exe"
+        "regex": "QQNT/Windows/QQ_(?<Version>[\\d._]+)_x64_01.exe"
     },
     "autoupdate": {
         "architecture": {
